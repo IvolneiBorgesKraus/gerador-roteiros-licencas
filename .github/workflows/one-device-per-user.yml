@@ -1,0 +1,53 @@
+name: Manter somente um computador autorizado
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  issues: write
+
+jobs:
+  replace-old-device:
+    if: github.event.label.name == 'license:approved'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Revogar autorizações anteriores desta conta
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const current = context.payload.issue;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const creator = current.user.login;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: 'open',
+              creator,
+              labels: 'license:approved',
+              per_page: 100
+            });
+
+            for (const issue of issues) {
+              if (issue.number === current.number || issue.pull_request) continue;
+              await github.rest.issues.removeLabel({
+                owner,
+                repo,
+                issue_number: issue.number,
+                name: 'license:approved'
+              }).catch(() => {});
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'not_planned'
+              });
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number: issue.number,
+                body: 'Autorização substituída por um novo computador aprovado.'
+              });
+            }
