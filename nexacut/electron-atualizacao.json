@@ -1,12 +1,12 @@
 {
   "payload": {
     "product": "nexacut-electron",
-    "version": "1.0.4",
-    "filename": "Instalador-NexaCut-Electron-v1.0.4.exe",
-    "url": "https://github.com/IvolneiBorgesKraus/gerador-roteiros-licencas/releases/download/nexacut-electron-v1.0.4/Instalador-NexaCut-Electron-v1.0.4.exe",
-    "bytes": 1029039876,
-    "sha256": "3728c239a962dcb4257a0bab8bdf774d5783080a642db415aa6b5a7fc0b1af9e",
-    "notes": "Corrigido o travamento ao chegar nos gráficos durante a reprodução ou ao mover o cursor da edição. Imagens dos gráficos são carregadas antes de entrar na prévia. Projetos e configurações são preservados. Salve seu projeto antes de instalar."
+    "version": "1.0.5",
+    "filename": "Instalador-NexaCut-Electron-v1.0.5.exe",
+    "url": "https://github.com/IvolneiBorgesKraus/gerador-roteiros-licencas/releases/download/nexacut-electron-v1.0.5/Instalador-NexaCut-Electron-v1.0.5.exe",
+    "bytes": 1029039907,
+    "sha256": "983e76eac625fdd74d817cd02ca1c1e7016fa5117c1292edb30de06627e40963",
+    "notes": "Corrigida a duplicação do card de texto sobre os gráficos na prévia e na exportação WebCodecs. Gráficos exibem seus próprios títulos e valores, sem outro painel por cima. Cards de texto e projetos existentes são preservados. Salve o projeto antes de instalar."
   },
-  "signature": "o9AjJOFMIJYkdN5vU7AKzkw82bWzouxEq6FsgNK0QUxvgsTkMNXzgCpet2A7-49UwdTMs75KkyZnZRSwrKXcBw"
+  "signature": "mOs3aeh9BTwMLVkmY-AXMhIKtwsbUY1Y15LuWDd14MGufm-8ggKicn7kJadDIvZAH5kuDJ3cyUDzkmJgHBaCCQ"
 }
