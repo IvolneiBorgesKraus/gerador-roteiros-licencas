@@ -1,12 +1,12 @@
 {
   "payload": {
     "product": "nexacut-electron",
-    "version": "1.0.5",
-    "filename": "Instalador-NexaCut-Electron-v1.0.5.exe",
-    "url": "https://github.com/IvolneiBorgesKraus/gerador-roteiros-licencas/releases/download/nexacut-electron-v1.0.5/Instalador-NexaCut-Electron-v1.0.5.exe",
-    "bytes": 1029039907,
-    "sha256": "983e76eac625fdd74d817cd02ca1c1e7016fa5117c1292edb30de06627e40963",
-    "notes": "Corrigida a duplicação do card de texto sobre os gráficos na prévia e na exportação WebCodecs. Gráficos exibem seus próprios títulos e valores, sem outro painel por cima. Cards de texto e projetos existentes são preservados. Salve o projeto antes de instalar."
+    "version": "1.0.6",
+    "filename": "Instalador-NexaCut-Electron-v1.0.6.exe",
+    "url": "https://github.com/IvolneiBorgesKraus/gerador-roteiros-licencas/releases/download/nexacut-electron-v1.0.6/Instalador-NexaCut-Electron-v1.0.6.exe",
+    "bytes": 1029044725,
+    "sha256": "11275cc38b42299351c1e036963def82037a68c9293e0066d37687f2101016bb",
+    "notes": "Corrigido o botão de edição automática sobre Exportar. A conexão com Claude e Codex agora solicita uma janela interativa separada e informa erros de abertura. Salve o projeto antes de instalar."
   },
-  "signature": "mOs3aeh9BTwMLVkmY-AXMhIKtwsbUY1Y15LuWDd14MGufm-8ggKicn7kJadDIvZAH5kuDJ3cyUDzkmJgHBaCCQ"
+  "signature": "eHJpEzwm_cVEDZNfoMm3kqy3PSkqbikFOjlc-QlHf8acmH8c3Q-OLrXlcLjixfePLzQXfhYee1eHnZGcHfUHCw"
 }
