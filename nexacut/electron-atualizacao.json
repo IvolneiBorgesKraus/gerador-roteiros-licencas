@@ -1,12 +1,12 @@
 {
   "payload": {
     "product": "nexacut-electron",
-    "version": "1.0.3",
-    "filename": "Instalador-NexaCut-Electron-v1.0.3.exe",
-    "url": "https://github.com/IvolneiBorgesKraus/gerador-roteiros-licencas/releases/download/nexacut-electron-v1.0.3/Instalador-NexaCut-Electron-v1.0.3.exe",
-    "bytes": 1029039949,
-    "sha256": "a864e284a7bfb1e353ec74c4c49c4669770089106ca963752a9ba3b82fd2d930",
-    "notes": "Ícone vermelho no aplicativo e nos atalhos. Consulta automática de atualizações após autorização na abertura, com aviso e link do instalador. Correções de gráficos e renderização mantidas. Salve seu projeto antes de instalar."
+    "version": "1.0.4",
+    "filename": "Instalador-NexaCut-Electron-v1.0.4.exe",
+    "url": "https://github.com/IvolneiBorgesKraus/gerador-roteiros-licencas/releases/download/nexacut-electron-v1.0.4/Instalador-NexaCut-Electron-v1.0.4.exe",
+    "bytes": 1029039876,
+    "sha256": "3728c239a962dcb4257a0bab8bdf774d5783080a642db415aa6b5a7fc0b1af9e",
+    "notes": "Corrigido o travamento ao chegar nos gráficos durante a reprodução ou ao mover o cursor da edição. Imagens dos gráficos são carregadas antes de entrar na prévia. Projetos e configurações são preservados. Salve seu projeto antes de instalar."
   },
-  "signature": "uVJLUVrFokNLNpfHV10fX1-fgJV4lZk3mCaO6HCyDOvFEWAfxEgIyfnv3-lF0nIyZ5QVD9jl4U7dlOjY8KvhAg"
+  "signature": "o9AjJOFMIJYkdN5vU7AKzkw82bWzouxEq6FsgNK0QUxvgsTkMNXzgCpet2A7-49UwdTMs75KkyZnZRSwrKXcBw"
 }
